@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# images for classification - will offer as remote download
+flowers/*
