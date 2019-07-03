@@ -28,5 +28,7 @@ parameters)
 
 # Note:
 
-The default image file in this repo is flowers/ collected from [this database](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), but another dataset can be
-uploaded and used in its stead by changing the terminal command to include the new image directory
+The default image file in this repo used to train the model is flowers/ collected from [this database](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html). You can download the
+image dataset by clicking the link 'Dataset images' under downloads, then adding it to your local repository
+titled 'flowers/', however another dataset can be uploaded and used in its stead by changing the terminal 
+command to include the new image directory
