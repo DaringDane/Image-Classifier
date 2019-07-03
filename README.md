@@ -26,3 +26,7 @@ terminal command to enter. Adjust the value of 'topk' to change how many top pro
 parameters)
 * The image is processed in the prediction function to return the top K classes predicted by the model
 
+# Note:
+
+The default image file in this repo is flowers/ collected from [this database](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), but another dataset can be
+uploaded and used in its stead by changing the terminal command to include the new image directory
