@@ -21,7 +21,7 @@ image sets.
 _To execute the prediction, see the [predict_arg_parser](predict_arg_parser.py) file for an example 
 terminal command to enter. Adjust the value of 'topk' to change how many top probable predictions are displayed._
 
-* Accepts input of a novel PIL image and converts
+* Accepts input of a novel PIL image and converts it to standardized size and data type
 * Loads a checkpoint file with saved model data(weights and biases and other necessary 
 parameters)
 * The image is processed in the prediction function to return the top K classes predicted by the model
