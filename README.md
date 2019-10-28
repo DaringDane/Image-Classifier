@@ -32,3 +32,5 @@ The default image file in this repo used to train the model is flowers/ collecte
 image dataset by clicking the link 'Dataset images' under downloads, then adding it to your local repository
 titled 'flowers/', however another dataset can be uploaded and used in its stead by changing the terminal 
 command to include the new image directory
+
+**Small note: I ended up running my model with transfer learning from the VGG19 model rather than VGG16 like I suggest in my code, but they both have the same number of neurons in the entry layer, so you can just enter VGG16 all the same to test that model's accuracy.**
