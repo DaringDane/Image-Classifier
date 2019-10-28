@@ -33,4 +33,4 @@ image dataset by clicking the link 'Dataset images' under downloads, then adding
 titled 'flowers/', however another dataset can be uploaded and used in its stead by changing the terminal 
 command to include the new image directory
 
-**Small note: I ended up running my model with transfer learning from the VGG19 model rather than VGG16 like I suggest in my code, but they both have the same number of neurons in the entry layer, so you can just enter VGG16 all the same to test that model's accuracy.**
+**Small note: When I define my dictionary of models, I show 'VGG16', 'densenet121', and 'alexnet', but then mistakenly printed VGG19's model structure instead of VGG16. This doesn't hurt the model, as it still shows the same structure as VGG16 and is only used to show how it looks on the backend of the transfer learning model.**
